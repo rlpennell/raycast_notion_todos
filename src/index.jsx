@@ -4,7 +4,7 @@ import { Client } from "@notionhq/client";
 import { nextSaturday, previousSunday, startOfToday, startOfTomorrow } from "date-fns";
 
 const notion = new Client({
-  auth: "secret_DeKQO4nC5HTPSUzyXA5Orleknk6efX20v6und9abJn1",
+  auth: "",
 });
 
 const ToDoList = () => {
